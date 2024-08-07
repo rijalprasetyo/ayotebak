@@ -298,7 +298,7 @@ function displayQuestion() {
     // Add explanation about colors
     const explanationDiv = document.getElementById('explanation');
     explanationDiv.innerHTML = `
-        <p><strong>Warna Tombol:</strong></p>
+        <p><strong>Keterangan :</strong></p>
         <ul>
             <li class="text-success">Hijau: Jawaban Benar</li>
             <li class="text-danger">Merah: Jawaban Salah</li>
