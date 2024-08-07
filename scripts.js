@@ -191,7 +191,39 @@ const questions = {
         { question: "Apa nama energi yang dimiliki oleh benda karena gerakannya?", answers: ["Energi Kinetik", "Energi Potensial", "Energi Kimia", "Energi Termal"], correct: "Energi Kinetik" },
         { question: "Apa nama hukum yang menyatakan bahwa setiap gaya memiliki reaksi yang sama dan berlawanan?", answers: ["Hukum Newton I", "Hukum Newton II", "Hukum Newton III", "Hukum Ohm"], correct: "Hukum Newton III" },
         { question: "Apa satuan dari energi dalam sistem internasional?", answers: ["Joule", "Newton", "Watt", "Ampere"], correct: "Joule" },
-        { question: "Apa nama gaya yang mencegah dua permukaan saling meluncur satu sama lain?", answers: ["Gaya Gesek", "Gaya Normal", "Gaya Gravitasi", "Gaya Sentral"], correct: "Gaya Gesek" }
+        { question: "Apa nama gaya yang mencegah dua permukaan saling meluncur satu sama lain?", answers: ["Gaya Gesek", "Gaya Normal", "Gaya Gravitasi", "Gaya Sentral"], correct: "Gaya Gesek" },
+        { question: "Apa yang dimaksud dengan Pancasila sebagai dasar negara?", answers: ["Dasar hukum negara", "Panduan moral", "Sumber hukum tertinggi", "Ideologi negara"], correct: "Ideologi negara" },
+        { question: "Apa prinsip utama dari sila pertama Pancasila?", answers: ["Keadilan sosial", "Ketuhanan Yang Maha Esa", "Persatuan Indonesia", "Kemanusiaan yang Adil dan Beradab"], correct: "Ketuhanan Yang Maha Esa" },
+        { question: "Apa fungsi dari UUD 1945 dalam sistem pemerintahan Indonesia?", answers: ["Sebagai undang-undang dasar", "Sebagai undang-undang pelaksana", "Sebagai pedoman partai politik", "Sebagai dokumen sejarah"], correct: "Sebagai undang-undang dasar" },
+        { question: "Apa makna dari semboyan 'Bhinneka Tunggal Ika'?", answers: ["Berbeda-beda tetapi tetap satu", "Satu bangsa satu negara", "Bersatu dalam keragaman", "Satu tujuan satu cita-cita"], correct: "Berbeda-beda tetapi tetap satu" },
+        { question: "Apa yang menjadi landasan hukum untuk pembentukan pemerintah daerah di Indonesia?", answers: ["UUD 1945", "Undang-Undang Otonomi Daerah", "Undang-Undang Pemerintahan Pusat", "Keputusan Presiden"], correct: "Undang-Undang Otonomi Daerah" },
+        { question: "Apa peran MPR dalam sistem ketatanegaraan Indonesia?", answers: ["Mengangkat presiden", "Membuat undang-undang", "Menjaga stabilitas politik", "Mengubah UUD"], correct: "Mengubah UUD" },
+        { question: "Apa hak yang dijamin oleh Pasal 28 UUD 1945?", answers: ["Hak atas pendidikan", "Hak atas kesehatan", "Hak untuk berkumpul", "Hak atas pekerjaan"], correct: "Hak untuk berkumpul" },
+        { question: "Apa tujuan dari sistem demokrasi Pancasila?", answers: ["Menciptakan pemerintahan yang adil dan bijaksana", "Menjamin hak asasi manusia", "Meningkatkan kesejahteraan rakyat", "Membagi kekuasaan secara merata"], correct: "Menciptakan pemerintahan yang adil dan bijaksana" },
+        { question: "Apa yang dimaksud dengan desentralisasi dalam konteks pemerintahan Indonesia?", answers: ["Pemerintahan pusat mengambil keputusan untuk daerah", "Pemerintahan daerah memiliki kekuasaan untuk mengatur daerahnya", "Pemerintahan pusat dan daerah bekerja sama", "Kekuasaan tertinggi berada di pusat"], correct: "Pemerintahan daerah memiliki kekuasaan untuk mengatur daerahnya" },
+        { question: "Apa fungsi dari Dewan Perwakilan Daerah (DPD)?", answers: ["Membuat undang-undang", "Mengawasi kebijakan pemerintah", "Mewakili daerah dalam legislasi", "Menjaga hubungan internasional"], correct: "Mewakili daerah dalam legislasi" },
+        { question: "Apa makna dari sila kedua Pancasila, 'Kemanusiaan yang Adil dan Beradab'?", answers: ["Menghargai hak asasi manusia", "Menjaga persatuan bangsa", "Menjamin kebebasan beragama", "Mendukung kemajuan teknologi"], correct: "Menghargai hak asasi manusia" },
+        { question: "Apa tugas utama dari Lembaga Negara di Indonesia?", answers: ["Membuat kebijakan ekonomi", "Menjalankan pemerintahan", "Melaksanakan fungsi legislatif dan yudikatif", "Mengatur hubungan internasional"], correct: "Melaksanakan fungsi legislatif dan yudikatif" },
+        { question: "Apa peran dan fungsi dari BPK (Badan Pemeriksa Keuangan)?", answers: ["Melakukan audit keuangan pemerintah", "Mengatur kebijakan moneter", "Menjaga hubungan dengan luar negeri", "Menyusun anggaran negara"], correct: "Melakukan audit keuangan pemerintah" },
+        { question: "Apa yang dimaksud dengan hak dan kewajiban warga negara?", answers: ["Hak adalah apa yang dapat diperoleh warga negara, kewajiban adalah apa yang harus dilakukan", "Hak adalah kewajiban negara, kewajiban adalah hak negara", "Hak dan kewajiban adalah hal yang sama", "Hak adalah hak individu, kewajiban adalah hak negara"], correct: "Hak adalah apa yang dapat diperoleh warga negara, kewajiban adalah apa yang harus dilakukan" },
+        { question: "Apa yang dimaksud dengan sistem pemerintahan Presidensial?", answers: ["Presiden sebagai kepala negara dan kepala pemerintahan", "Presiden sebagai kepala negara, perdana menteri sebagai kepala pemerintahan", "Presiden dan parlemen berbagi kekuasaan", "Presiden hanya sebagai simbol negara"], correct: "Presiden sebagai kepala negara dan kepala pemerintahan" },
+        { question: "Apa tujuan utama dari otonomi daerah di Indonesia?", answers: ["Memberikan kekuasaan lebih kepada pemerintah pusat", "Meningkatkan partisipasi masyarakat dalam pemerintahan daerah", "Mengurangi peran pemerintah daerah", "Mengintegrasikan kebijakan pemerintah pusat"], correct: "Meningkatkan partisipasi masyarakat dalam pemerintahan daerah" },
+        { question: "Apa yang dimaksud dengan usaha dalam fisika?", answers: ["Energi yang dikeluarkan untuk memindahkan benda", "Gaya yang diterapkan pada benda", "Perubahan kecepatan benda", "Hasil perkalian gaya dan jarak"], correct: "Energi yang dikeluarkan untuk memindahkan benda" },
+        { question: "Apa rumus usaha dalam fisika?", answers: ["W = F x d", "W = F / d", "W = m x a", "W = P x t"], correct: "W = F x d" },
+        { question: "Satuan usaha dalam sistem internasional adalah?", answers: ["Joule", "Newton", "Watt", "Pascal"], correct: "Joule" },
+        { question: "Jika gaya yang diterapkan pada benda adalah 10 N dan jarak perpindahannya 5 m, berapa usaha yang dilakukan?", answers: ["50 Joule", "10 Joule", "5 Joule", "15 Joule"], correct: "50 Joule" },
+        { question: "Apa yang mempengaruhi besar usaha yang dilakukan pada benda?", answers: ["Besar gaya dan jarak perpindahan", "Besar gaya dan kecepatan", "Jarak perpindahan dan massa benda", "Kecepatan dan waktu"], correct: "Besar gaya dan jarak perpindahan" },
+        { question: "Apa yang dimaksud dengan daya dalam fisika?", answers: ["Usaha per satuan waktu", "Energi per satuan waktu", "Gaya per satuan jarak", "Perubahan energi per satuan waktu"], correct: "Usaha per satuan waktu" },
+        { question: "Apa rumus daya dalam fisika?", answers: ["P = W / t", "P = W x t", "P = F / d", "P = F x d"], correct: "P = W / t" },
+        { question: "Satuan daya dalam sistem internasional adalah?", answers: ["Watt", "Joule", "Newton", "Pascal"], correct: "Watt" },
+        { question: "Jika usaha yang dilakukan adalah 100 Joule dalam waktu 10 detik, berapa daya yang dihasilkan?", answers: ["10 Watt", "100 Watt", "10 Joule", "1 Watt"], correct: "10 Watt" },
+        { question: "Apa yang dimaksud dengan energi kinetik?", answers: ["Energi yang dimiliki oleh benda karena geraknya", "Energi yang dimiliki oleh benda karena posisinya", "Energi yang disimpan dalam benda", "Energi yang ditransfer dalam bentuk panas"], correct: "Energi yang dimiliki oleh benda karena geraknya" },
+        { question: "Apa rumus energi kinetik?", answers: ["Ek = 1/2 mv^2", "Ek = mgh", "Ek = F x d", "Ek = P x t"], correct: "Ek = 1/2 mv^2" },
+        { question: "Apa yang dimaksud dengan energi potensial?", answers: ["Energi yang dimiliki oleh benda karena posisinya", "Energi yang dimiliki oleh benda karena geraknya", "Energi yang disimpan dalam benda", "Energi yang ditransfer dalam bentuk panas"], correct: "Energi yang dimiliki oleh benda karena posisinya" },
+        { question: "Apa rumus energi potensial gravitasi?", answers: ["Ep = mgh", "Ep = 1/2 mv^2", "Ep = F x d", "Ep = P x t"], correct: "Ep = mgh" },
+        { question: "Apa yang dimaksud dengan hukum kekekalan energi?", answers: ["Energi tidak dapat diciptakan atau dimusnahkan, hanya berubah bentuk", "Energi total selalu sama dalam sistem tertutup", "Energi kinetik dan potensial selalu seimbang", "Energi tidak dapat dikonversi"], correct: "Energi tidak dapat diciptakan atau dimusnahkan, hanya berubah bentuk" },
+        { question: "Apa yang terjadi jika energi kinetik bertambah?", answers: ["Energi potensial berkurang", "Usaha bertambah", "Daya bertambah", "Energi total berkurang"], correct: "Usaha bertambah" },
+        { question: "Apa yang dimaksud dengan mesin sederhana?", answers: ["Alat yang memudahkan pekerjaan dengan mengubah arah atau besarnya gaya", "Alat yang mengukur usaha", "Alat yang meningkatkan energi kinetik", "Alat yang menyimpan energi"], correct: "Alat yang memudahkan pekerjaan dengan mengubah arah atau besarnya gaya" }
     ]
 };
 
@@ -223,10 +255,23 @@ function startGame(category) {
 }
 
 function shuffleArray(array) {
-    for (let i = array.length - 1; i > 0; i--) {
-        const j = Math.floor(Math.random() * (i + 1));
-        [array[i], array[j]] = [array[j], array[i]]; // Swap elements
+    const seed = Date.now(); // Gunakan waktu sekarang sebagai seed
+    let currentIndex = array.length, temporaryValue, randomIndex;
+    
+    while (0 !== currentIndex) {
+        randomIndex = Math.floor(random(seed + currentIndex) * currentIndex);
+        currentIndex -= 1;
+        temporaryValue = array[currentIndex];
+        array[currentIndex] = array[randomIndex];
+        array[randomIndex] = temporaryValue;
     }
+
+    return array;
+}
+
+function random(seed) {
+    const x = Math.sin(seed) * 10000;
+    return x - Math.floor(x);
 }
 
 function displayQuestion() {
@@ -238,7 +283,11 @@ function displayQuestion() {
     
     const answersDiv = document.getElementById('answers');
     answersDiv.innerHTML = "";
-    question.answers.forEach((answer, index) => {
+    
+    // Acak urutan jawaban
+    const shuffledAnswers = shuffleArray([...question.answers]);
+    
+    shuffledAnswers.forEach((answer, index) => {
         const button = document.createElement('button');
         button.classList.add('btn', 'btn-outline-primary');
         button.innerText = `${String.fromCharCode(65 + index)}. ${answer}`;
@@ -307,8 +356,6 @@ function nextQuestion() {
     }
 }
 
-
-
 function startTimer() {
     let time = 180; // 3 minutes
     timer = setInterval(() => {
@@ -337,7 +384,6 @@ function endGame() {
     document.getElementById('correct-answers').innerText = `Jawaban Benar: ${correctAnswers}`;
     document.getElementById('incorrect-answers').innerText = `Jawaban Salah: ${incorrectAnswers}`;
 }
-
 
 function restartGame() {
     document.getElementById('game-over').style.display = 'none';
