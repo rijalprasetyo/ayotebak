@@ -239,6 +239,70 @@ const questions = {
         { question: "Apa yang dimaksud dengan titik fokus pada cermin cekung?", answers: ["Titik di mana sinar-sinar datang berpotongan", "Titik di mana sinar-sinar pantul berpotongan", "Titik di mana sinar-sinar melewati cermin", "Titik di mana sinar-sinar datang dan pantul berpotongan"], correct: "Titik di mana sinar-sinar pantul berpotongan" },
         { question: "Apa yang terjadi pada panjang gelombang ketika frekuensi gelombang dinaikkan?", answers: ["Panjang gelombang tetap", "Panjang gelombang berkurang", "Panjang gelombang meningkat", "Panjang gelombang berubah secara acak"], correct: "Panjang gelombang berkurang" },
         { question: "Apa yang dimaksud dengan hukum Archimedes?", answers: ["Gaya apung pada benda yang dicelupkan dalam cairan sama dengan berat cairan yang dipindahkan", "Gaya apung pada benda yang dicelupkan dalam cairan sama dengan berat benda itu", "Gaya apung pada benda yang dicelupkan dalam cairan berbanding lurus dengan volume benda", "Gaya apung pada benda yang dicelupkan dalam cairan berbanding terbalik dengan massa benda"], correct: "Gaya apung pada benda yang dicelupkan dalam cairan sama dengan berat cairan yang dipindahkan" }
+    ],
+    worldFlags: [
+        { question: "Bendera negara mana ini?", img: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Flag_of_India.svg/225px-Flag_of_India.svg.png", answers: ["India", "Pakistan", "Bangladesh", "Sri Lanka"], correct: "India" },
+        { question: "Bendera negara mana ini?", img: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Flag_of_France.svg/225px-Flag_of_France.svg.png", answers: ["France", "Germany", "Italy", "Spain"], correct: "France" },
+        { question: "Bendera negara mana ini?", img: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Flag_of_the_United_States.svg/270px-Flag_of_the_United_States.svg.png", answers: ["United States", "Canada", "Mexico", "Brazil"], correct: "United States" },
+        { question: "Bendera negara mana ini?", img: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Flag_of_Italy.svg/225px-Flag_of_Italy.svg.png", answers: ["Italy", "Spain", "France", "Portugal"], correct: "Italy" },
+        { question: "Bendera negara mana ini?", img: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Flag_of_Indonesia.svg/225px-Flag_of_Indonesia.svg.png", answers: ["Indonesia", "Malaysia", "Singapore", "Thailand"], correct: "Indonesia" },
+        { question: "Bendera negara mana ini?", img: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Flag_of_Japan.svg/225px-Flag_of_Japan.svg.png", answers: ["Japan", "South Korea", "China", "Vietnam"], correct: "Japan" },
+        { question: "Bendera negara mana ini?", img: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Flag_of_South_Korea.svg/225px-Flag_of_South_Korea.svg.png", answers: ["South Korea", "North Korea", "China", "Japan"], correct: "South Korea" },
+        { question: "Bendera negara mana ini?", img: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Brazil.svg/214px-Flag_of_Brazil.svg.png", answers: ["Brazil", "Argentina", "Chile", "Peru"], correct: "Brazil" },
+        { question: "Bendera negara mana ini?", img: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Flag_of_Argentina.svg/240px-Flag_of_Argentina.svg.png", answers: ["Argentina", "Uruguay", "Paraguay", "Chile"], correct: "Argentina" },
+        { question: "Bendera negara mana ini?", img: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Flag_of_Canada.svg/270px-Flag_of_Canada.svg.png", answers: ["Canada", "United States", "Mexico", "Australia"], correct: "Canada" },
+        { question: "Bendera negara mana ini?", img: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Flag_of_Australia_%28converted%29.svg/270px-Flag_of_Australia_%28converted%29.svg.png", answers: ["Australia", "New Zealand", "United Kingdom", "South Africa"], correct: "Australia" },
+        { question: "Bendera negara mana ini?", img: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Flag_of_the_United_Kingdom_%283-5%29.svg/250px-Flag_of_the_United_Kingdom_%283-5%29.svg.png", answers: ["United Kingdom", "Australia", "New Zealand", "Canada"], correct: "United Kingdom" },
+        { question: "Bendera negara mana ini?", img: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Flag_of_New_Zealand.svg/270px-Flag_of_New_Zealand.svg.png", answers: ["New Zealand", "Australia", "United Kingdom", "South Africa"], correct: "New Zealand" },
+        { question: "Bendera negara mana ini?", img: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Flag_of_Russia.svg/225px-Flag_of_Russia.svg.png", answers: ["Russia", "Ukraine", "Belarus", "Poland"], correct: "Russia" },
+        { question: "Bendera negara mana ini?", img: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Flag_of_Germany.svg/250px-Flag_of_Germany.svg.png", answers: ["Germany", "Austria", "Switzerland", "Netherlands"], correct: "Germany" },
+        { question: "Bendera negara mana ini?", img: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Flag_of_Spain.svg/225px-Flag_of_Spain.svg.png", answers: ["Spain", "Portugal", "France", "Italy"], correct: "Spain" },
+        { question: "Bendera negara mana ini?", img: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Flag_of_Portugal.svg/225px-Flag_of_Portugal.svg.png", answers: ["Portugal", "Spain", "France", "Italy"], correct: "Portugal" },
+        { question: "Bendera negara mana ini?", img: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Flag_of_Mexico.svg/263px-Flag_of_Mexico.svg.png", answers: ["Mexico", "Spain", "Argentina", "Brazil"], correct: "Mexico" },
+        { question: "Bendera negara mana ini?", img: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Flag_of_the_People%27s_Republic_of_China.svg/225px-Flag_of_the_People%27s_Republic_of_China.svg.png", answers: ["China", "Japan", "South Korea", "Vietnam"], correct: "China" },
+        { question: "Bendera negara mana ini?", img: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Flag_of_South_Africa.svg/225px-Flag_of_South_Africa.svg.png", answers: ["South Africa", "Nigeria", "Kenya", "Ghana"], correct: "South Africa" },
+        { question: "Bendera negara mana ini?", img: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Flag_of_Kenya.svg/225px-Flag_of_Kenya.svg.png", answers: ["Kenya", "South Africa", "Nigeria", "Ghana"], correct: "Kenya" },
+        { question: "Bendera negara mana ini?", img: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Flag_of_Ghana.svg/225px-Flag_of_Ghana.svg.png", answers: ["Ghana", "Nigeria", "South Africa", "Kenya"], correct: "Ghana" },
+        { question: "Bendera negara mana ini?", img: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Flag_of_Nigeria.svg/270px-Flag_of_Nigeria.svg.png", answers: ["Nigeria", "Ghana", "South Africa", "Kenya"], correct: "Nigeria" },
+        { question: "Bendera negara mana ini?", img: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Flag_of_Finland.svg/246px-Flag_of_Finland.svg.png", answers: ["Finland", "Sweden", "Norway", "Denmark"], correct: "Finland" },
+        { question: "Bendera negara mana ini?", img: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Flag_of_Switzerland.svg/150px-Flag_of_Switzerland.svg.png", answers: ["Sweden", "Finland", "Norway", "Denmark"], correct: "Sweden" },
+        { question: "Bendera negara mana ini?", img: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Flag_of_Norway.svg/207px-Flag_of_Norway.svg.png", answers: ["Norway", "Sweden", "Finland", "Denmark"], correct: "Norway" },
+        { question: "Bendera negara mana ini?", img: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Flag_of_Denmark.svg/199px-Flag_of_Denmark.svg.png", answers: ["Denmark", "Sweden", "Norway", "Finland"], correct: "Denmark" },
+        { question: "Bendera negara mana ini?", img: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Flag_of_Iceland.svg/209px-Flag_of_Iceland.svg.png", answers: ["Iceland", "Norway", "Sweden", "Finland"], correct: "Iceland" },
+
+        { question: "Bendera negara mana ini?", img: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Flag_of_Tuvalu.svg/270px-Flag_of_Tuvalu.svg.png", answers: ["Tuvalu", "Kiribati", "Nauru", "Palau"], correct: "Tuvalu" },
+        { question: "Bendera negara mana ini?", img: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Flag_of_Bhutan.svg/225px-Flag_of_Bhutan.svg.png", answers: ["Bhutan", "Nepal", "Mongolia", "Laos"], correct: "Bhutan" },
+        { question: "Bendera negara mana ini?", img: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Flag_of_Djibouti.svg/260px-Flag_of_Djibouti.svg.png", answers: ["Djibouti", "Eritrea", "Somalia", "Sudan"], correct: "Djibouti" },
+        { question: "Bendera negara mana ini?", img: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Flag_of_Suriname.svg/225px-Flag_of_Suriname.svg.png", answers: ["Suriname", "Guyana", "Paraguay", "Venezuela"], correct: "Suriname" },
+        { question: "Bendera negara mana ini?", img: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Flag_of_Vanuatu.svg/250px-Flag_of_Vanuatu.svg.png", answers: ["Vanuatu", "Fiji", "Tonga", "Samoa"], correct: "Vanuatu" },
+        { question: "Bendera negara mana ini?", img: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Flag_of_the_Comoros.svg/250px-Flag_of_the_Comoros.svg.png", answers: ["Comoros", "Seychelles", "Madagascar", "Mauritius"], correct: "Comoros" },
+        { question: "Bendera negara mana ini?", img: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Flag_of_Kiribati.svg/270px-Flag_of_Kiribati.svg.png", answers: ["Kiribati", "Tuvalu", "Nauru", "Marshall Islands"], correct: "Kiribati" },
+        { question: "Bendera negara mana ini?", img: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Flag_of_Guinea-Bissau.svg/270px-Flag_of_Guinea-Bissau.svg.png", answers: ["Equatorial Guinea", "Gabon", "Congo", "Angola"], correct: "Equatorial Guinea" },
+        { question: "Bendera negara mana ini?", img: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Flag_of_Malawi.svg/225px-Flag_of_Malawi.svg.png", answers: ["Malawi", "Zambia", "Mozambique", "Zimbabwe"], correct: "Malawi" },
+        { question: "Bendera negara mana ini?", img: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Flag_of_the_Federated_States_of_Micronesia.svg/270px-Flag_of_the_Federated_States_of_Micronesia.svg.png", answers: ["Micronesia", "Marshall Islands", "Palau", "Nauru"], correct: "Micronesia" },
+        { question: "Bendera negara mana ini?", img: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Flag_of_Grenada.svg/250px-Flag_of_Grenada.svg.png", answers: ["Grenada", "Barbados", "Saint Lucia", "Saint Vincent and the Grenadines"], correct: "Grenada" },
+        { question: "Bendera negara mana ini?", img: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Flag_of_Lesotho.svg/225px-Flag_of_Lesotho.svg.png", answers: ["Lesotho", "Eswatini", "Botswana", "Namibia"], correct: "Lesotho" },
+        { question: "Bendera negara mana ini?", img: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Flag_of_East_Timor.svg/270px-Flag_of_East_Timor.svg.png", answers: ["Timor-Leste", "Brunei", "Papua New Guinea", "Malaysia"], correct: "Timor-Leste" },
+        { question: "Bendera negara mana ini?", img: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Flag_of_Togo.svg/243px-Flag_of_Togo.svg.png", answers: ["Togo", "Benin", "Burkina Faso", "Ghana"], correct: "Togo" },
+        { question: "Bendera negara mana ini?", img: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Flag_of_Brunei.svg/270px-Flag_of_Brunei.svg.png", answers: ["Brunei", "Malaysia", "Singapore", "Indonesia"], correct: "Brunei" },
+        { question: "Bendera negara mana ini?", img: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Flag_of_Eritrea.svg/270px-Flag_of_Eritrea.svg.png", answers: ["Eritrea", "Djibouti", "Ethiopia", "Sudan"], correct: "Eritrea" },
+        { question: "Bendera negara mana ini?", img: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Flag_of_the_Solomon_Islands.svg/270px-Flag_of_the_Solomon_Islands.svg.png", answers: ["Solomon Islands", "Vanuatu", "Papua New Guinea", "Fiji"], correct: "Solomon Islands" },
+        { question: "Bendera negara mana ini?", img: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Flag_of_Belize.svg/250px-Flag_of_Belize.svg.png", answers: ["Belize", "Honduras", "Guatemala", "El Salvador"], correct: "Belize" },
+        { question: "Bendera negara mana ini?", img: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Flag_of_Suriname.svg/225px-Flag_of_Suriname.svg.png", answers: ["Suriname", "Guyana", "Paraguay", "Venezuela"], correct: "Suriname" },
+            
+        { question: "Bendera negara mana ini?", img: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Flag_of_North_Korea.svg/270px-Flag_of_North_Korea.svg.png", answers: ["North Korea", "South Korea", "China", "Japan"], correct: "North Korea" },
+        { question: "Bendera negara mana ini?", img: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Flag_of_Laos.svg/225px-Flag_of_Laos.svg.png", answers: ["Laos", "Vietnam", "Thailand", "Cambodia"], correct: "Laos" },
+        { question: "Bendera negara mana ini?", img: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Flag_of_Malaysia.svg/270px-Flag_of_Malaysia.svg.png", answers: ["Malaysia", "Indonesia", "Brunei", "Singapore"], correct: "Malaysia" },
+        { question: "Bendera negara mana ini?", img: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Flag_of_Mongolia.svg/270px-Flag_of_Mongolia.svg.png", answers: ["Mongolia", "China", "Japan", "North Korea"], correct: "Mongolia" },
+        { question: "Bendera negara mana ini?", img: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Flag_of_Vietnam.svg/225px-Flag_of_Vietnam.svg.png", answers: ["Vietnam", "Laos", "Cambodia", "Thailand"], correct: "Vietnam" },
+        { question: "Bendera negara mana ini?", img: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Flag_of_Uruguay.svg/225px-Flag_of_Uruguay.svg.png", answers: ["Uruguay", "Argentina", "Paraguay", "Chile"], correct: "Uruguay" },
+        { question: "Bendera negara mana ini?", img: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Flag_of_Venezuela.svg/225px-Flag_of_Venezuela.svg.png", answers: ["Venezuela", "Colombia", "Ecuador", "Peru"], correct: "Venezuela" },
+        { question: "Bendera negara mana ini?", img: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Flag_of_Colombia.svg/225px-Flag_of_Colombia.svg.png", answers: ["Colombia", "Venezuela", "Ecuador", "Peru"], correct: "Colombia" },
+        { question: "Bendera negara mana ini?", img: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Flag_of_Ecuador.svg/225px-Flag_of_Ecuador.svg.png", answers: ["Ecuador", "Colombia", "Peru", "Bolivia"], correct: "Ecuador" },
+        { question: "Bendera negara mana ini?", img: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Flag_of_Guyana.svg/250px-Flag_of_Guyana.svg.png", answers: ["Guyana", "Suriname", "Venezuela", "Brazil"], correct: "Guyana" },
+        { question: "Bendera negara mana ini?", img: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Flag_of_Paraguay.svg/270px-Flag_of_Paraguay.svg.png", answers: ["Paraguay", "Argentina", "Uruguay", "Bolivia"], correct: "Paraguay" },
+        { question: "Bendera negara mana ini?", img: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Flag_of_Argentina.svg/240px-Flag_of_Argentina.svg.png", answers: ["Argentina", "Uruguay", "Chile", "Paraguay"], correct: "Argentina" },
+        { question: "Bendera negara mana ini?", img: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Flag_of_Bolivia_%28state%29.svg/220px-Flag_of_Bolivia_%28state%29.svg.png", answers: ["Bolivia", "Peru", "Ecuador", "Venezuela"], correct: "Bolivia" },
     ]
 };
 
@@ -255,8 +319,8 @@ function startGame(category) {
     currentQuestionIndex = 0;
     score = 0;
     userAnswered = false;
-    correctAnswers = 0; // Reset jumlah jawaban benar
-    incorrectAnswers = 0; // Reset jumlah jawaban salah
+    correctAnswers = 0;
+    incorrectAnswers = 0;
 
     shuffleArray(questions[currentCategory]);
 
@@ -268,6 +332,7 @@ function startGame(category) {
     startTimer();
     displayQuestion();
 }
+
 
 function shuffleArray(array) {
     const seed = Date.now(); // Gunakan waktu sekarang sebagai seed
@@ -292,6 +357,16 @@ function random(seed) {
 function displayQuestion() {
     const question = questions[currentCategory][currentQuestionIndex];
     document.getElementById('question').innerText = question.question;
+
+    // Menambahkan tampilan gambar bendera jika ada
+    if (question.img) {
+        const imgElement = document.createElement('img');
+        imgElement.src = question.img;
+        imgElement.alt = "Flag Image";
+        imgElement.style.width = "200px"; // Sesuaikan ukuran gambar
+        imgElement.classList.add("my-3");
+        document.getElementById('question').appendChild(imgElement);
+    }
     
     // Update soal keterangan
     document.getElementById('question-number').innerText = `Soal ${currentQuestionIndex + 1} dari ${questions[currentCategory].length}`;
