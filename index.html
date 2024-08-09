@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="images/ICON.png" type="image/x-icon">
     <style>
         .text-success { color: #28a745; }
         .text-danger { color: #dc3545; }
@@ -58,6 +59,16 @@
                         </div>
                     </div>
                 </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                    <div class="card h-100">
+                        <img src="images/negara.jpg" class="card-img-top" alt="Bendera Negara">
+                        <div class="card-body d-flex flex-column">
+                            <h3 class="card-title">Bendera Negara</h3>
+                            <p class="card-text flex-grow-1">Tebak bendera negara dari berbagai penjuru dunia.</p>
+                            <button class="btn btn-primary mt-auto" onclick="startGame('worldFlags')">Mulai</button>
+                        </div>
+                    </div>
+                </div>               
             </div>
         </div>
 
@@ -81,6 +92,8 @@
             <button class="btn btn-primary" onclick="restartGame()">Main Lagi</button>
         </div>
     </div>
+
+    
 
     <script src="scripts.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
