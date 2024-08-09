@@ -141,5 +141,10 @@ button {
 #score-summary span {
     margin: 0 5px; /* Add some space between elements */
 }
-
-
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow effect */
+}
