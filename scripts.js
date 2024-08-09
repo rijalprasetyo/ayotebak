@@ -422,6 +422,15 @@ function handleAnswer(answer, button) {
                 btn.style.color = 'white'; // Warna teks putih
             }
         });
+
+        // Reduce remaining time by 3 seconds
+        remainingTime -= 5;
+        if (remainingTime < 0) remainingTime = 0; // Ensure time doesn't go negative
+
+        // Update the timer display
+        const minutes = Math.floor(remainingTime / 60);
+        const seconds = remainingTime % 60;
+        document.getElementById('time').innerText = `${minutes}:${seconds < 10 ? '0' : ''}${seconds}`;
     }
 
     userAnswered = true;
@@ -431,6 +440,8 @@ function handleAnswer(answer, button) {
         nextQuestion();
     }, 2000); // 2 seconds delay before moving to the next question
 }
+
+
 
 function nextQuestion() {
     if (!userAnswered) {
@@ -447,18 +458,35 @@ function nextQuestion() {
 }
 
 function startTimer() {
-    let time = 180; // 3 minutes
+    switch (currentCategory) {
+        case 'general':
+        case 'culture':
+        case 'worldFlags':
+            remainingTime = 90; // 1.5 minutes
+            break;
+        case 'physics':
+            remainingTime = 120; // 2 minutes
+            break;
+        case 'math':
+            remainingTime = 180; // 3 minutes
+            break;
+        default:
+            remainingTime = 180; // Default to 3 minutes if category is unknown
+    }
+
     timer = setInterval(() => {
-        const minutes = Math.floor(time / 60);
-        const seconds = time % 60;
+        const minutes = Math.floor(remainingTime / 60);
+        const seconds = remainingTime % 60;
         document.getElementById('time').innerText = `${minutes}:${seconds < 10 ? '0' : ''}${seconds}`;
-        time--;
-        if (time < 0) {
+        remainingTime--;
+
+        if (remainingTime < 0) {
             clearInterval(timer);
             endGame();
         }
     }, 1000);
 }
+
 
 function endGame() {
     clearInterval(timer);
